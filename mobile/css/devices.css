@@ -1,0 +1,331 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	body {
+		width: 100%;
+	}
+
+	.logo {
+		position: absolute;
+		margin: 0;
+		top: -40%;
+		z-index: 4;
+
+	}
+
+	#img-logo {
+		position: absolute;
+		margin: 0 0 0 1%;
+		display: block;
+		/*Change img size here*/
+		top: 0;
+	}
+
+	.nav-logo-container {
+		position: sticky;
+		top: 0;
+	}
+
+	nav a {
+		color: white;
+		text-decoration: none;
+		width: 100px;
+		display: block;
+		padding: 20px 15px;
+		text-align: center;
+	}
+
+	nav li {
+		float: none;
+	}
+
+	nav ul {
+		display: none;
+		padding: 0;
+		margin: 0 0 0 30%;
+		list-style: none;
+	}
+
+	main {
+		max-width: 100%;
+		margin: 0 5% 0 5%;
+		display: block;
+	}
+
+	#main-contact-form {
+		margin: 0 0 5% 0;
+	}
+
+	.pictures {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 100%;
+	}	
+
+	.contactform {
+		width: 100%;
+		position: absolute;
+		top: 15%;
+	}
+
+	.desktop-html {
+		display: none;
+	}
+
+	.mobile-html {
+		display: block;
+	}
+
+	label #menu-bars {
+		display: block;
+	}
+
+	#show-links-button {
+		display: none;
+	}
+
+	#show-links-button:checked ~ ul {
+		display: block;
+	}
+
+	#show-links-button:checked ~ ul li {
+		display: block;
+	}
+
+	h1 {
+		margin: 5% 0 0 0;
+	}
+
+	#manual, #TheSnkrsAppParagraph, #SupremeFaqParagraph {
+		position: relative;
+		top: 25px;
+	}
+
+	#formConfirmationMessage {
+		top: 35%;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	#main-contact-form {
+		margin: 0 0 5% 0;
+	}	
+
+	#infographic {
+		width: 75%;
+	}
+
+	body {
+		width: 100%;
+	}
+
+	.logo {
+		position: absolute;
+		margin: 0;
+		top: -40%;
+		z-index: 4;
+
+	}
+
+	#img-logo {
+		position: absolute;
+		margin: 0 0 0 1%;
+		display: block;
+		/*Change img size here*/
+		top: 0;
+	}
+
+	.nav-logo-container {
+		position: sticky;
+		top: 0;
+	}
+
+	nav a {
+		color: white;
+		text-decoration: none;
+		width: 100px;
+		display: block;
+		padding: 20px 15px;
+		text-align: center;
+	}
+
+	nav li {
+		float: none;
+	}
+
+	nav ul {
+		display: none;
+		padding: 0;
+		margin: 0 0 0 30%;
+		list-style: none;
+	}
+
+	main {
+		max-width: 100%;
+		margin: 0 5% 0 5%;
+		display: block;
+	}
+
+	.pictures {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 100%;
+	}	
+
+	.contactform {
+		width: 100%;
+		position: absolute;
+		top: 15%;
+	}
+
+	.desktop-html {
+		display: none;
+	}
+
+	.mobile-html {
+		display: block;
+	}
+
+	label #menu-bars {
+		display: block;
+	}
+
+	#show-links-button {
+		display: none;
+	}
+
+	#show-links-button:checked ~ ul {
+		display: block;
+	}
+
+	#show-links-button:checked ~ ul li {
+		display: block;
+	}
+
+	h1 {
+		margin: 5% 0 0 0;
+	}
+
+	#manual, #TheSnkrsAppParagraph, #SupremeFaqParagraph {
+		position: relative;
+		top: 25px;
+	}
+
+	#formConfirmationMessage {
+		top: 35%;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	main {
+		max-width: 100%;
+		margin: 0 2% 0 2%;
+		display: block;
+	}
+
+	#infographic {
+		width: 70%;
+	}
+
+	#main-contact-form {
+		margin: 0 0 5% 0;
+	}	
+
+	body {
+		width: 100%;
+	}
+
+	.logo {
+		position: absolute;
+		margin: 0;
+		top: -40%;
+		z-index: 4;
+
+	}
+
+	#img-logo {
+		position: absolute;
+		margin: 0 0 0 1%;
+		display: block;
+		/*Change img size here*/
+		top: 0;
+	}
+
+	.nav-logo-container {
+		position: sticky;
+		top: 0;
+	}
+
+	nav a {
+		color: white;
+		text-decoration: none;
+		width: 100px;
+		display: block;
+		padding: 20px 15px;
+		text-align: center;
+	}
+
+	nav li {
+		float: none;
+	}
+
+	nav ul {
+		display: none;
+		padding: 0;
+		margin: 0 0 0 30%;
+		list-style: none;
+	}
+
+	.pictures {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 100%;
+	}	
+
+	.contactform {
+		width: 100%;
+		position: absolute;
+		top: 15%;
+	}
+
+	.desktop-html {
+		display: none;
+	}
+
+	.mobile-html {
+		display: block;
+	}
+
+	label #menu-bars {
+		display: block;
+	}
+
+	#show-links-button {
+		display: none;
+	}
+
+	#show-links-button:checked ~ ul {
+		display: block;
+	}
+
+	#show-links-button:checked ~ ul li {
+		display: block;
+	}
+
+	h1 {
+		margin: 5% 0 0 0;
+	}
+
+	#manual, #TheSnkrsAppParagraph, #SupremeFaqParagraph {
+		position: relative;
+		top: 25px;
+	}
+
+	#formConfirmationMessage {
+		top: 35%;
+	}
+} 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+	<head>
+		<title>Resell Guide - Contact</title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Resell Guide, Contact Resell Guide">
+		<link href="css/main.css" rel="stylesheet">
+		<link rel="stylesheet" media="screen and (max-width: 992px)" href="mobile/css/devices.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+		<meta name="description" content="Form to contact Resell Guide.">
+		<script src="js/main.js"></script>
+	</head>
+
+	<body>
+		<div class="nav-logo-container">
+			<div class="logo"><img id="img-logo" src="img/logo.png" alt="Resell Guide's logo" title="Our logo"></div>
+			<nav>
+				<input type="checkbox" id="show-links-button">
+				<label for="show-links-button">
+					<i class="fa fa-bars" id="menu-bars"></i>
+				</label>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="supreme.html">Supreme</a></li>
+					<li><a href="stockx.html">StockX</a></li>
+					<li><a href="shoes.html">Shoes</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a class="active" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+
+			<div class="title"><h1>Resell Guide - Contact Us</h1></div>
+			<div id="formConfirmationMessage"></div>
+			<div id="pageContentContainer">
+				<main id="main-contact-form">
+					<div class="desktop-html contactform">
+						<form id="contact" method="post" action="javascript:;" onsubmit="formConfirmation()">
+							<div class="formcontent">
+								<label for="first">First Name:</label>
+								<input type="text" id="first" name="first" size="30" required>
+								<p></p>
+								<label for="last">Last Name:</label>
+								<input type="text" id="last" name="last" size="30" required>
+								<p></p>
+								<label for="email">Email:</label>
+								<input type="email" id="email" name="email" size="35" required>
+								<p></p>
+								<label for="questions">Questions, Comments, or Concerns:</label>
+								<p></p>
+								<textarea name="questions" id="questions" required></textarea>
+								<p></p>
+								<div class="formbuttons">
+									<input type="reset" class="formbuttons" id="reset" name="reset"> <input type="submit" class="formbuttons" id="submit" name="submit">
+								</div>
+							</div>
+						</form>
+					</div>
+
+					<!--Mobile Contact Form-->
+					<div class="mobile-html contactform">
+						<form id="contact-mobile" action="javascript:;" onsubmit="formConfirmation()">
+							<div class="mobile-contactform formcontent">
+								<div class="flexbox-form-1">
+									<div class="inputs-labels-1">
+										<label for="first">First Name:</label>
+										<input type="text" id="first-mobile" name="first" required>
+									</div>
+									<div class="inputs-labels-2">
+										<label for="last">Last Name:</label>
+										<input type="text" id="last-mobile" name="last" required>
+									</div>
+
+									<div class="inputs-labels-3">
+										<label for="email">Email:</label>
+										<input type="email" id="email-mobile" name="email" required>
+									</div>
+								</div>
+								<div class="flexbox-form-2">
+									<label for="questions">Questions, Comments, or Concerns:</label>
+									<p></p>
+									<textarea rows="12" name="questions" id="questions-mobile" required></textarea>
+									<p></p>
+									<div class="formbuttons">
+										<input type="reset" class="formbuttons" id="reset-mobile" name="reset"> <input type="submit" class="formbuttons" id="submit-mobile" name="submit">
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</main>
+		</div>
+	</body>
+</html>
